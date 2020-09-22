@@ -1,4 +1,33 @@
-node_modules/
+##########################################################
+###    PACKAGE SYSTEMS                                 ###
+##########################################################
 
-#mac
+node_modules/
+package-lock.json
+npm-debug.log*
+
+###    OPERATING SYSTEMS                               ###
+##########################################################
+
+###  macOS  ------------------------------------------ ###
 *.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+###  Windows  ---------------------------------------- ###
+Thumbs.db
+Desktop.ini
+*.lnk
+
+##########################################################
+###   BUILD & COMPILATION OUTPUT                       ###
+##########################################################
+
+.sass-cache/
+*.css.map
