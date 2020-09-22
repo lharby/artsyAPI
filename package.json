@@ -1,0 +1,22 @@
+{
+  "name": "artsy",
+  "version": "1.0.0",
+  "description": "Retrieve arts museum data via API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "Art",
+    "Museum",
+    "Exhibitions"
+  ],
+  "author": "Luke Harby",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^5.1.0",
+    "traverson": "^6.1.1",
+    "traverson-hal": "^6.1.0"
+  }
+}
